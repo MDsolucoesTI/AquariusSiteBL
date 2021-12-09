@@ -1,0 +1,29 @@
+<!--
+//////////////////////////////////////////////////////////////////////////
+// Criacao...........: 04/2006
+// Sistema...........: Site da Aquarius Maritime
+// Analistas.........: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+// Desenvolvedores...: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+// Copyright.........: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+//////////////////////////////////////////////////////////////////////////
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<AppSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SubscribeURL>subscribe.aspx</SubscribeURL>
+<SenderName>Aquarius Maritime</SenderName>
+<SenderEmail>fabiocruz@aquariusmaritime.com.br</SenderEmail>
+<NewsSubject>News 4 you: #ListName#</NewsSubject>
+<Signature>- The Aquarius Maritime
+Click the following link to unsubscribe:
+#SubscribeURL#?ListID=#ListID#&amp;Action=Unsubscribe&amp;Email=#SubscriberEmail#</Signature>
+<SubscrSubject>Welcome to the mailing list #ListName#</SubscrSubject>
+<SubscrMessage>Welcome to the mailing list #ListName#, dear #SubscriberFirstName# #SubscriberLastName#.
+Click the following link to unsubscribe:
+#SubscribeURL#?ListID=#ListID#&amp;Action=Unsubscribe&amp;Email=#SubscriberEmail#</SubscrMessage>
+<UnSubscrSubject>Bye bye from #ListName#</UnSubscrSubject>
+<UnSubscrMessage>You have been removed from the mailing list #ListName#.
+Why this decision???</UnSubscrMessage>
+<SendSubscrEmail>true</SendSubscrEmail>
+<SendUnSubscrEmail>true</SendUnSubscrEmail>
+</AppSettings>

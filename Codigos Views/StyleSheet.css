@@ -1,0 +1,63 @@
+﻿/*
+//////////////////////////////////////////////////////////////////////////
+// Criacao...........: 04/2006
+// Sistema...........: Site da Aquarius Maritime
+// Analistas.........: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+// Desenvolvedores...: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+// Copyright.........: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+//////////////////////////////////////////////////////////////////////////
+*/
+
+body {
+  padding-right: 0px;
+  padding-left: 0px;
+  font-size: 10pt;
+  padding-bottom: 0px;
+  margin: 0px;
+  padding-top: 0px;
+  font-family: Verdana, Arial;
+  }
+.header
+{
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: Navy;
+  font-weight: bold;
+  font-size: 14pt;
+  color: White;
+}
+.normal
+{
+  font-size: 10pt;
+  color: Blue;
+}
+.Headnormal
+{
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  font-weight: bold;
+  font-size: 10pt;
+  color: Gray;
+}
+.alerta
+{
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  font-weight: bold;
+  font-size: 12pt;
+  color: Red;
+}
+.entrada
+{
+  font-size: 10pt;
+  background-color: #fff5ee;
+  color: Navy;
+}
+
+  
